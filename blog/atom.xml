@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.unifie.cloud/doc/blog</id>
+    <title>Unifie Blog</title>
+    <updated>2025-01-22T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.unifie.cloud/doc/blog"/>
+    <subtitle>Unifie Blog</subtitle>
+    <icon>https://www.unifie.cloud/doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[U-store - Multi tenant SaaS cloud template]]></title>
+        <id>https://www.unifie.cloud/doc/blog/U-store</id>
+        <link href="https://www.unifie.cloud/doc/blog/U-store"/>
+        <updated>2025-01-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In the rapidly evolving tech landscape, the ability to quickly deploy scalable SaaS solutions is a game-changer. Enter U-store, an innovative multi tenant SaaS cloud template powered by Unifie.cloud, designed to streamline the launch and management of SaaS platforms. Whether you're a startup looking to scale or an established business aiming for operational efficiency, U-store has you covered.]]></summary>
+        <content type="html"><![CDATA[<p>In the rapidly evolving tech landscape, the ability to quickly deploy scalable SaaS solutions is a game-changer. Enter <strong>U-store</strong>, an innovative multi tenant SaaS cloud template powered by <strong>Unifie.cloud</strong>, designed to streamline the launch and management of SaaS platforms. Whether you're a startup looking to scale or an established business aiming for operational efficiency, U-store has you covered.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-key-benefits-of-u-store">🌟 Key Benefits of U-store<a href="https://www.unifie.cloud/doc/blog/U-store#-key-benefits-of-u-store" class="hash-link" aria-label="Direct link to 🌟 Key Benefits of U-store" title="Direct link to 🌟 Key Benefits of U-store">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-lightning-fast-deployment">1. <strong>Lightning-Fast Deployment</strong><a href="https://www.unifie.cloud/doc/blog/U-store#1-lightning-fast-deployment" class="hash-link" aria-label="Direct link to 1-lightning-fast-deployment" title="Direct link to 1-lightning-fast-deployment">​</a></h3>
+<p>U-store allows you to transform your software into a cloud-based SaaS platform in as little as <strong>1-2 days without programming skills</strong>. This rapid deployment reduces time-to-market and empowers businesses to adapt quickly.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-scalability-at-your-fingertips">2. <strong>Scalability at Your Fingertips</strong><a href="https://www.unifie.cloud/doc/blog/U-store#2-scalability-at-your-fingertips" class="hash-link" aria-label="Direct link to 2-scalability-at-your-fingertips" title="Direct link to 2-scalability-at-your-fingertips">​</a></h3>
+<p>Built on <strong>Kubernetes</strong> and managed via <strong>Unifie.cloud</strong>, U-store provides seamless scalability, ensuring your applications can handle increased demand without breaking a sweat.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-customizable-ui-and-logic">3. <strong>Customizable UI and Logic</strong><a href="https://www.unifie.cloud/doc/blog/U-store#3-customizable-ui-and-logic" class="hash-link" aria-label="Direct link to 3-customizable-ui-and-logic" title="Direct link to 3-customizable-ui-and-logic">​</a></h3>
+<p>No two businesses are alike, and U-store recognizes that. With a fully customizable interface and logic, it adapts to your unique branding and operational needs.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-secure-and-localized-hosting">4. <strong>Secure and Localized Hosting</strong><a href="https://www.unifie.cloud/doc/blog/U-store#4-secure-and-localized-hosting" class="hash-link" aria-label="Direct link to 4-secure-and-localized-hosting" title="Direct link to 4-secure-and-localized-hosting">​</a></h3>
+<p>Host U-store on your own servers, retaining full control over data and ensuring compliance with regional regulations.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-built-in-billing">5. <strong>Built-In Billing</strong><a href="https://www.unifie.cloud/doc/blog/U-store#5-built-in-billing" class="hash-link" aria-label="Direct link to 5-built-in-billing" title="Direct link to 5-built-in-billing">​</a></h3>
+<p>Thanks to Stripe integration, U-store offers a smooth and reliable billing experience. It supports payment methods like credit cards, SAML SSO, Google, and GitHub authentication for seamless user onboarding.</p>
+<h2></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-how-u-store-works">🛠️ How U-store Works<a href="https://www.unifie.cloud/doc/blog/U-store#%EF%B8%8F-how-u-store-works" class="hash-link" aria-label="Direct link to 🛠️ How U-store Works" title="Direct link to 🛠️ How U-store Works">​</a></h2>
+<p>U-store leverages the power of <strong>Unifie.cloud's API</strong> to manage deployments across your Kubernetes clusters worldwide. The workflow is simple:</p>
+<ol>
+<li>Customers access and interact with your SaaS offering via U-store.</li>
+<li>DevOps teams use <strong>Unifie.cloud</strong> to manage deployments, monitor performance, and debug issues.</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="U-store usage flow" src="https://www.unifie.cloud/doc/assets/images/U-store-usage-dc82814e607dd9b8edeaee47c5988297.svg" width="893" height="325" class="img_ev3q"></p>
+<p>This division of responsibilities ensures that your customers experience a polished, user-friendly interface, while your technical team benefits from a robust, centralized dashboard for backend management.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-kubernetes-deployment-made-easy">🌥️ Kubernetes Deployment Made Easy<a href="https://www.unifie.cloud/doc/blog/U-store#%EF%B8%8F-kubernetes-deployment-made-easy" class="hash-link" aria-label="Direct link to 🌥️ Kubernetes Deployment Made Easy" title="Direct link to 🌥️ Kubernetes Deployment Made Easy">​</a></h2>
+<p>Deploying U-store is as simple as a few clicks:</p>
+<ul>
+<li>Use the <a href="https://gallery.ecr.aws/g4a0y2u8/unifie-store" target="_blank" rel="noopener noreferrer">AWS ECR image registry</a>.</li>
+<li>Leverage the <a href="https://artifacthub.io/packages/helm/unifie/u-store" target="_blank" rel="noopener noreferrer">Helm chart</a> for Kubernetes deployment.</li>
+<li>Try the <strong>one-click deploy</strong> option via <a href="https://unifie.cloud/kubernetes/unifie-project-lf24rvjgzu9rwhd5" target="_blank" rel="noopener noreferrer">Unifie.cloud</a>.</li>
+</ul>
+<p><a href="https://unifie.cloud/kubernetes/unifie-project-lf24rvjgzu9rwhd5" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://api.unifie.cloud/deploy-btn/button_unifie-one-click-deploy.gif" alt="Deploy with Unifie" class="img_ev3q"></a></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-advanced-features">✨ Advanced Features<a href="https://www.unifie.cloud/doc/blog/U-store#-advanced-features" class="hash-link" aria-label="Direct link to ✨ Advanced Features" title="Direct link to ✨ Advanced Features">​</a></h2>
+<p>U-store comes packed with powerful capabilities:</p>
+<ul>
+<li><strong>Role-Based Access Control (RBAC):</strong> Manage team permissions with precision.</li>
+<li><strong>Webhooks and Events:</strong> Automate workflows and keep your teams notified.</li>
+<li><strong>Internationalization:</strong> Adapt your platform for a global audience.</li>
+<li><strong>Audit Logs and Security Headers:</strong> Ensure compliance and robust security.</li>
+<li><strong>Dark Mode:</strong> Deliver a modern user experience.</li>
+</ul>
+<p>For a comprehensive list, check the <a href="https://github.com/unifie-cloud/u-store?tab=readme-ov-file#-features" target="_blank" rel="noopener noreferrer">features list</a>.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-built-on-modern-technologies">🛠️ Built on Modern Technologies<a href="https://www.unifie.cloud/doc/blog/U-store#%EF%B8%8F-built-on-modern-technologies" class="hash-link" aria-label="Direct link to 🛠️ Built on Modern Technologies" title="Direct link to 🛠️ Built on Modern Technologies">​</a></h2>
+<p>U-store utilizes cutting-edge tools and frameworks:</p>
+<ul>
+<li><strong>Next.js</strong> and <strong>React</strong> for an intuitive front-end.</li>
+<li><strong>Prisma</strong> and <strong>PostgreSQL</strong> for robust database management.</li>
+<li><strong>Ant Design</strong> and <strong>Tailwind CSS</strong> for sleek UI.</li>
+<li><strong>GraphQL Apollo Server</strong> for efficient API queries.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-perfect-for-startups-and-enterprises-alike">🎯 Perfect for Startups and Enterprises Alike<a href="https://www.unifie.cloud/doc/blog/U-store#-perfect-for-startups-and-enterprises-alike" class="hash-link" aria-label="Direct link to 🎯 Perfect for Startups and Enterprises Alike" title="Direct link to 🎯 Perfect for Startups and Enterprises Alike">​</a></h2>
+<p>Whether you're building your first SaaS or optimizing an existing product, U-store enables you to:</p>
+<ul>
+<li><strong>Drive More Usage:</strong> Offer your software as a service to a broader audience.</li>
+<li><strong>Unlock Revenue:</strong> Monetize efficiently with built-in billing solutions.</li>
+<li><strong>Grow Faster:</strong> Focus on your business while U-store handles the infrastructure.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-try-u-store-today">🚀 Try U-store Today<a href="https://www.unifie.cloud/doc/blog/U-store#-try-u-store-today" class="hash-link" aria-label="Direct link to 🚀 Try U-store Today" title="Direct link to 🚀 Try U-store Today">​</a></h2>
+<p>Experience the future of SaaS deployment with U-store. Explore the <a href="https://demo-store.unifie.io/" target="_blank" rel="noopener noreferrer">demo store</a> using:</p>
+<ul>
+<li><strong>Login:</strong> <a href="mailto:demo@demo-store.unifie.io" target="_blank" rel="noopener noreferrer">demo@demo-store.unifie.io</a></li>
+<li><strong>Password:</strong> <a href="mailto:demo@demo-store.unifie.io" target="_blank" rel="noopener noreferrer">demo@demo-store.unifie.io</a></li>
+</ul>
+<p>Transform your software into a scalable SaaS platform effortlessly with U-store. <a href="https://github.com/unifie-cloud/u-store/" target="_blank" rel="noopener noreferrer">Start now</a>!</p>
+<p><img decoding="async" loading="lazy" alt="UI" src="https://www.unifie.cloud/doc/assets/images/product-monitoring-f845b47bd87891f58c8448c96dfe4bb2.webp" width="1996" height="1964" class="img_ev3q"></p>
+<hr>
+<p>Do you have questions or need assistance? Join the <strong>Unifie community</strong>:</p>
+<ul>
+<li><a href="https://github.com/unifie-cloud/u-store/discussions" target="_blank" rel="noopener noreferrer">GitHub Discussions</a></li>
+<li><a href="https://github.com/unifie-cloud/u-store/issues" target="_blank" rel="noopener noreferrer">Report Issues</a></li>
+</ul>
+<p>Take the next step in SaaS innovation with <strong>U-store</strong> and <strong>Unifie.cloud</strong>.</p>]]></content>
+        <author>
+            <name>Trapenok Viktor</name>
+            <uri>https://www.linkedin.com/in/victor-trapenok/</uri>
+        </author>
+        <category label="Karpenter" term="Karpenter"/>
+        <category label="GitLab" term="GitLab"/>
+        <category label="Kubernetes" term="Kubernetes"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reducing CI/CD infrastructure costs]]></title>
+        <id>https://www.unifie.cloud/doc/blog/karpenter-for-gitlabrunner</id>
+        <link href="https://www.unifie.cloud/doc/blog/karpenter-for-gitlabrunner"/>
+        <updated>2024-10-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Reducing CI/CD infrastructure costs]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Reducing CI/CD infrastructure costs" src="https://www.unifie.cloud/doc/assets/images/logo-e82f6d71cb1b6a832578ceb2d0f0e3b0.webp" width="721" height="406" class="img_ev3q"></p>
+<p>I want to share how we at Nanoheal reduced our infrastructure costs by using GitLab runners in Kubernetes with Karpenter on spot instances.</p>
+<p>At Nanoheal, we have a high level of developer activity, and CI/CD pipelines runs a critical role in our DevOps practices for continuous delivery.</p>
+<p>Previously, we ran three powerful EC2 virtual machines in our AWS account, dedicated to hosting GitLab runners. However, since our team worked within the same time zone, these machines sat idle almost 16 hours per day, as most work was done during business hours. During the remaining 8 hours, the servers were often overloaded due to peak demand.</p>
+<h1>The Solution</h1>
+<p>I migrated GitLab runners to Kubernetes. We already had a Kubernetes cluster running in AWS, so I configured Karpenter to handle autoscaling within the cluster.</p>
+<p>Karpenter uses taints and node affinity rules to determine on which nodes specific pods should run.</p>
+<p>The configuration is set up so that Karpenter creates a node when a GitLab runner starts a pipeline. Then pipeline runs on a spot instance, specifically dedicated for CI/CD tasks. Our pipelines consume a significant amount of resources and can negatively impact other services if they share the same node in the cluster.</p>
+<p>Once the pipeline completes, the node remains empty, thanks to the properly configured taints, which prevent other pods from being scheduled on it. After 30 minutes of inactivity, Karpenter automatically removes the node.</p>
+<h1>The Result</h1>
+<p>By migrating CI/CD pipelines to our Kubernetes cluster, we eliminated the need for three always-on virtual machines. Instead, we now run 1–2 spot nodes in the cluster, running ~60 hours per week, drastically cutting down our infrastructure costs.</p>
+<p>You can get <a href="https://github.com/VictorTrapenok/karpenter-for-gitlabrunner" target="_blank" rel="noopener noreferrer">configuration files in my github</a></p>
+<ul>
+<li>Helm chart for gitlab runner: <a href="https://gitlab.com/gitlab-org/charts/gitlab-runner" target="_blank" rel="noopener noreferrer">gitlab-runner</a></li>
+<li>karpenter autoscaller: <a href="https://karpenter.sh/" target="_blank" rel="noopener noreferrer">karpenter</a></li>
+<li>karpenter configuration <a href="https://github.com/VictorTrapenok/karpenter-for-gitlabrunner/blob/main/karpenter-coniguration.yaml" target="_blank" rel="noopener noreferrer">karpenter-coniguration.yaml</a></li>
+</ul>]]></content>
+        <author>
+            <name>Trapenok Viktor</name>
+            <uri>https://www.linkedin.com/in/victor-trapenok/</uri>
+        </author>
+        <category label="Karpenter" term="Karpenter"/>
+        <category label="GitLab" term="GitLab"/>
+        <category label="Kubernetes" term="Kubernetes"/>
+    </entry>
+</feed>
