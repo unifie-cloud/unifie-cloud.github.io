@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8718],{3457:e=>{e.exports=JSON.parse('{"tags":[{"label":"Karpenter","permalink":"/doc/blog/tags/karpenter","count":2},{"label":"GitLab","permalink":"/doc/blog/tags/git-lab","count":2},{"label":"Kubernetes","permalink":"/doc/blog/tags/kubernetes","count":2}]}')}}]);
