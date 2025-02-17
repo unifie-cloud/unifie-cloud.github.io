@@ -2,11 +2,108 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.unifie.cloud/doc/blog</id>
     <title>Unifie Blog</title>
-    <updated>2025-02-04T00:00:00.000Z</updated>
+    <updated>2025-02-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.unifie.cloud/doc/blog"/>
     <subtitle>Unifie Blog</subtitle>
     <icon>https://www.unifie.cloud/doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Green-Blue Deployment via Route 53]]></title>
+        <id>https://www.unifie.cloud/doc/blog/Green-blue-deployments</id>
+        <link href="https://www.unifie.cloud/doc/blog/Green-blue-deployments"/>
+        <updated>2025-02-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Green-Blue deployment is a strategy where you have two versions of your application:]]></summary>
+        <content type="html"><![CDATA[<p>Green-Blue deployment is a strategy where you have two versions of your application:</p>
+<ul>
+<li><strong>Blue</strong> (current stable version)</li>
+<li><strong>Green</strong> (new version)</li>
+</ul>
+<p>With Route 53, you can implement this using a simple DNS switch.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-how-to-set-it-up">🛠 How to Set It Up<a href="https://www.unifie.cloud/doc/blog/Green-blue-deployments#-how-to-set-it-up" class="hash-link" aria-label="Direct link to 🛠 How to Set It Up" title="Direct link to 🛠 How to Set It Up">​</a></h2>
+<ol>
+<li>
+<p><strong>Deploy two versions of your application</strong></p>
+<ul>
+<li>Run two environments (e.g., EC2 instances, ECS services, or ALBs) with different versions.</li>
+</ul>
+</li>
+<li>
+<p><strong>Create two DNS records in Route 53</strong></p>
+<ul>
+<li><code>blue.example.com</code> → Old version</li>
+<li><code>green.example.com</code> → New version</li>
+</ul>
+</li>
+<li>
+<p><strong>Set up the main DNS record</strong></p>
+<ul>
+<li>Create a CNAME record <code>app.example.com</code> pointing to the current stable version (<code>blue.example.com</code>).</li>
+</ul>
+</li>
+<li>
+<p><strong>Switch to the new version</strong></p>
+<ul>
+<li>Once the new version is ready, update <code>app.example.com</code> to point to <code>green.example.com</code>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Rollback if needed</strong></p>
+<ul>
+<li>If something goes wrong, simply switch back to <code>blue.example.com</code>.</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-minimal-ttl-for-faster-updates">⏳ Minimal TTL for Faster Updates<a href="https://www.unifie.cloud/doc/blog/Green-blue-deployments#-minimal-ttl-for-faster-updates" class="hash-link" aria-label="Direct link to ⏳ Minimal TTL for Faster Updates" title="Direct link to ⏳ Minimal TTL for Faster Updates">​</a></h2>
+<p>To reduce switching delays, set a <strong>low TTL</strong> (e.g., 60 seconds) on your DNS records. This ensures changes propagate quickly when you update Route 53.</p>
+<p>📌 <strong>Pros</strong>: Simple setup, quick rollback, no complex tools required.<br>
+<!-- -->❗ <strong>Cons</strong>: DNS propagation depends on TTL, no automated testing before switching.</p>
+<p>This method is ideal for deployments where occasional manual updates are acceptable.</p>
+<p><img decoding="async" loading="lazy" alt="k3s architecture on a single node with embedded database" src="https://www.unifie.cloud/doc/assets/images/devtip-3-green-blue-186b03077009cabba9a84f1125d506bf.gif" width="1125" height="1440" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Trapenok Viktor</name>
+            <uri>https://www.linkedin.com/in/victor-trapenok/</uri>
+        </author>
+        <category label="cloud" term="cloud"/>
+        <category label="cluster-management" term="cluster-management"/>
+        <category label="Kubernetes" term="Kubernetes"/>
+        <category label="DevOps" term="DevOps"/>
+        <category label="LearnToCode" term="LearnToCode"/>
+        <category label="CloudComputing" term="CloudComputing"/>
+        <category label="TechSkills" term="TechSkills"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet K3s]]></title>
+        <id>https://www.unifie.cloud/doc/blog/Meet-K3s</id>
+        <link href="https://www.unifie.cloud/doc/blog/Meet-K3s"/>
+        <updated>2025-02-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Overwhelmed by Kubernetes but eager to learn? Meet K3s — a lightweight, certified Kubernetes distribution designed to run smoothly on your local machine. Perfect for beginners!]]></summary>
+        <content type="html"><![CDATA[<p>Overwhelmed by Kubernetes but eager to learn? Meet K3s — a lightweight, certified Kubernetes distribution designed to run smoothly on your local machine. Perfect for beginners!</p>
+<ul>
+<li>Lightweight: Uses 1/10th the memory of standard Kubernetes.</li>
+<li>Simple Setup: Installs in seconds with a single command.</li>
+<li>Real Kubernetes Experience: Learn core concepts (pods, deployments, services) without cloud costs.</li>
+</ul>
+<h1>Get Started in 3 Steps:</h1>
+<ol>
+<li>Install K3s: "curl -sfL <a href="https://get.k3s.io/" target="_blank" rel="noopener noreferrer">https://get.k3s.io</a> | sh - "</li>
+<li>Verify It Works: "kubectl get nodes"</li>
+<li>Experiment locally without fear.</li>
+</ol>
+<h1>Use with unifie</h1>
+<p><a href="https://www.unifie.cloud/doc/home/Cluster-provisioning/k3s/" target="_blank" rel="noopener noreferrer">How to use Unifie with K3S</a></p>
+<p><img decoding="async" loading="lazy" alt="k3s architecture on a single node with embedded database" src="https://www.unifie.cloud/doc/assets/images/final-k3s-4475cf0cc79d7aff88bd1be82c5c9698.gif" width="1125" height="1440" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Trapenok Viktor</name>
+            <uri>https://www.linkedin.com/in/victor-trapenok/</uri>
+        </author>
+        <category label="cloud" term="cloud"/>
+        <category label="cluster-management" term="cluster-management"/>
+        <category label="Kubernetes" term="Kubernetes"/>
+        <category label="DevOps" term="DevOps"/>
+        <category label="LearnToCode" term="LearnToCode"/>
+        <category label="CloudComputing" term="CloudComputing"/>
+        <category label="TechSkills" term="TechSkills"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to build a SaaS platform with Kubernetes]]></title>
         <id>https://www.unifie.cloud/doc/blog/How-to-build-SaaS-platform-with-Kubernetes</id>

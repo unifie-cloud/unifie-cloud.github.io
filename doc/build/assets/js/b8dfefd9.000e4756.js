@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2187],{1815:e=>{e.exports=JSON.parse('{"authors":[{"name":"Trapenok Viktor","title":"Maintainer of Unifie","url":"https://www.linkedin.com/in/victor-trapenok/","imageURL":"https://www.unifie.cloud/doc/img/blog/TrapenokViktor.jpeg","key":"TrapenokViktor","page":null,"count":0}]}')}}]);
