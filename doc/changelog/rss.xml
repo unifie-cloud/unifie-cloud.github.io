@@ -4,14 +4,28 @@
         <title>Unifie Blog</title>
         <link>https://www.unifie.cloud/doc/changelog</link>
         <description>Unifie Blog</description>
-        <lastBuildDate>Sun, 15 Dec 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Feb 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[February]]></title>
+            <link>https://www.unifie.cloud/doc/changelog/2025-February</link>
+            <guid>https://www.unifie.cloud/doc/changelog/2025-February</guid>
+            <pubDate>Tue, 18 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[- Support Kubernetes 1.32]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>Support Kubernetes 1.32</li>
+<li>UI fix for Jobs</li>
+<li>UI fix for Login pages</li>
+<li>Add roles</li>
+</ul>]]></content:encoded>
+            <category>changelog</category>
+        </item>
+        <item>
             <title><![CDATA[December]]></title>
-            <link>https://www.unifie.cloud/doc/changelog/2024/12/15/init</link>
-            <guid>https://www.unifie.cloud/doc/changelog/2024/12/15/init</guid>
+            <link>https://www.unifie.cloud/doc/changelog/2024-December</link>
+            <guid>https://www.unifie.cloud/doc/changelog/2024-December</guid>
             <pubDate>Sun, 15 Dec 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[- Logs-dark-theme - fix : Logs Dark theme ( logs-dark-theme )]]></description>
             <content:encoded><![CDATA[<ul>
@@ -19,18 +33,20 @@
 <li>DP-793-helm-fix-output - Dp 793 helm fix output ( dp-793-helm-fix-output )</li>
 <li>DP-794-remake-component-from-tabs-to-menu - recreate setting tabs</li>
 </ul>]]></content:encoded>
+            <category>changelog</category>
         </item>
         <item>
             <title><![CDATA[November]]></title>
-            <link>https://www.unifie.cloud/doc/changelog/2024/11/26/index</link>
-            <guid>https://www.unifie.cloud/doc/changelog/2024/11/26/index</guid>
+            <link>https://www.unifie.cloud/doc/changelog/2024-November</link>
+            <guid>https://www.unifie.cloud/doc/changelog/2024-November</guid>
             <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[- DP-733-image-pull-secrets - Dp 733 image pull secrets ( dp-733-image-pull-secrets )]]></description>
+            <description><![CDATA[- DP-733 - Dp 733 image pull secrets ( dp-733-image-pull-secrets )]]></description>
             <content:encoded><![CDATA[<ul>
-<li>DP-733-image-pull-secrets - Dp 733 image pull secrets ( dp-733-image-pull-secrets )</li>
+<li>DP-733 - Dp 733 image pull secrets ( dp-733-image-pull-secrets )</li>
 <li>DP-755 - Dp 755 Full Screen for charts ( dp-755 )</li>
-<li>DP-630-Add-pods-request-and-limits - Dp 630 add pods request and limits ( dp-630-add-pods-request-and-limits )</li>
+<li>DP-630 - Dp 630 add pods request and limits ( dp-630-add-pods-request-and-limits )</li>
 </ul>]]></content:encoded>
+            <category>changelog</category>
         </item>
     </channel>
 </rss>
